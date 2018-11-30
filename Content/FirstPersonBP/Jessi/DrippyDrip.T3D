@@ -1,0 +1,59 @@
+Begin Object Class=/Script/Engine.Material Name="DrippyDrip"
+   Begin Object Class=/Script/Engine.MaterialExpressionConstant Name="MaterialExpressionConstant_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionParticleColor Name="MaterialExpressionParticleColor_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionSphereMask Name="MaterialExpressionSphereMask_0"
+   End Object
+   Begin Object Class=/Script/Engine.MaterialExpressionTextureCoordinate Name="MaterialExpressionTextureCoordinate_0"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfoWithPrimitive Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   Begin Object Name="MaterialExpressionConstant_0"
+      R=0.500000
+      MaterialExpressionEditorX=-400
+      MaterialExpressionEditorY=256
+      MaterialExpressionGuid=EF9E5ED347ADFABCDBDCB786E1EE554A
+      Material=Material'"DrippyDrip"'
+   End Object
+   Begin Object Name="MaterialExpressionParticleColor_0"
+      MaterialExpressionEditorX=-64
+      MaterialExpressionGuid=F5EAEAA548C1C5375A4D93A43FF13662
+      Material=Material'"DrippyDrip"'
+   End Object
+   Begin Object Name="MaterialExpressionSphereMask_0"
+      A=(Expression=MaterialExpressionTextureCoordinate'"DrippyDrip:MaterialExpressionTextureCoordinate_0"')
+      B=(Expression=MaterialExpressionConstant'"DrippyDrip:MaterialExpressionConstant_0"')
+      Radius=(Expression=MaterialExpressionConstant'"DrippyDrip:MaterialExpressionConstant_0"')
+      HardnessPercent=50.000000
+      MaterialExpressionEditorX=-220
+      MaterialExpressionEditorY=217
+      MaterialExpressionGuid=262D39F549ACD6D781F2059645B092DD
+      Material=Material'"DrippyDrip"'
+   End Object
+   Begin Object Name="MaterialExpressionTextureCoordinate_0"
+      MaterialExpressionEditorX=-416
+      MaterialExpressionEditorY=64
+      MaterialExpressionGuid=562448D84CC9A0031F83838399B839AD
+      Material=Material'"DrippyDrip"'
+      bCommentBubbleVisible=True
+      bCollapsed=False
+   End Object
+   Begin Object Name="SceneThumbnailInfoWithPrimitive_0"
+   End Object
+   EmissiveColor=(Expression=MaterialExpressionParticleColor'"MaterialExpressionParticleColor_0"',Mask=1,MaskR=1,MaskG=1,MaskB=1)
+   Opacity=(Expression=MaterialExpressionSphereMask'"MaterialExpressionSphereMask_0"')
+   BlendMode=BLEND_Translucent
+   ShadingModel=MSM_Unlit
+   bUsedWithParticleSprites=True
+   EditorX=272
+   EditorY=-80
+   Expressions(0)=MaterialExpressionTextureCoordinate'"MaterialExpressionTextureCoordinate_0"'
+   Expressions(1)=MaterialExpressionSphereMask'"MaterialExpressionSphereMask_0"'
+   Expressions(2)=MaterialExpressionConstant'"MaterialExpressionConstant_0"'
+   Expressions(3)=MaterialExpressionParticleColor'"MaterialExpressionParticleColor_0"'
+   bCanMaskedBeAssumedOpaque=True
+   StateId=A98B0B684EE2CE341740FB9153E387AA
+   ThumbnailInfo=SceneThumbnailInfoWithPrimitive'"SceneThumbnailInfoWithPrimitive_0"'
+   LightingGuid=2850FA4F47F7EAAA575E8FA97564CE5C
+End Object
